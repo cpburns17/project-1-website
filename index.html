@@ -1,0 +1,98 @@
+<html lang="eng">
+    <head>
+        <link rel="stylesheet" href="style.css"/>
+    </head>
+    <body>
+        <header>
+            <h1>Mad Libs Story Generator</h1>
+            <div id="image-container">
+                <img id="madlib-kid-1" src="https://madlibs.bostonchildrensmuseum.org/madlibs-junior/mystery-museum/images/misc/kid.png">
+                <img id="mad-libs-logo" src="https://www.perkins.org/wp-content/uploads/2022/06/Mad_Libs_logo.png">
+                <img id="madlib-kid-2" src="https://madlibs.bostonchildrensmuseum.org/madlibs-junior/mystery-museum/images/misc/kid.png">
+            </div>
+        </header>
+        <div class="container-for-content">
+            <h2>Hello there! Welcome to Mad Libs, our custom story generator. Please fill in each box with the appropriate word according to the part of speech presented above each empty box. If you're unsure of what the part of speech is, mouse-over the part of speech to see a definition. Once completed, the story generator will return an original story based on your inputs. Please feel free to view previous submissions upon completion, and interact with them as well. Enjoy!
+            </h2>
+            <div id="custom-container">
+            <ul>
+                <form id="questionnaire">
+                    <li>
+                        <i id="animal" title="A living organism that feeds on organic matter, typically having specialized sense organs and nervous system and able to respond rapidly to stimuli."> Animal</i>
+                        <p>
+                            <input id="question-0-input" class="enter" type="text" placeholder="Ex: cow, dolphin"/>
+                        </p>
+                    </li>
+                    <li>
+                        <i id="name" title="Your name"> Name</i>
+                        <p>
+                            <input id="question-name-input" class="enter" type="text" placeholder="Pick any name"/>
+                        </p>
+                    </li>
+                    <li>
+                        <i id="singular-noun" title="A singular noun refers to only one person, place, or thing. Some examples include a cat, an idea, a fruit - just make sure to only have 1!"> Noun (singular)</i>
+                        <p>
+                            <input id="question-1-input" class="enter" type="text" placeholder="Ex: dinner, baseball"/>
+                        </p>
+                    </li>
+                    <li>
+                        <i id="plural-noun" title="A plural noun refers to more than one person, place, or thing. Some examples include dogs, feelings,and libraries. As long as you have more than one it is plural!"> Noun (plural)</i>
+                        <p>
+                            <input id="question-2-input" class="enter" type="text" placeholder="Ex: hot dogs, cars"/>
+                        </p>
+                    </li>
+                    <li>
+                        <i id="past-tense-verb" title="A past tense verb refers to a word that describes an action that occured in the past. Think walked, uploaded, ran. As long as it has already been completed!">Verb (past tense)</i>
+                        <p>
+                            <input id="question-3-input" class="enter" type="text" placeholder="Ex: ran, watched"/>
+                        </p>
+                    </li>
+                    <li>
+                        <i id="adjective-1" title="An adjective is a word used to describe or define a noun. Think big, enormous, silly, beautiful, meaningless.">Adjective</i>
+                        <p>
+                            <input id="question-4-input" class="enter" type="text" placeholder="Ex: majestic, creepy"/>
+                        </p>
+                    </li>
+                    <li>
+                        <i id="adjective-2" title="An adjective is a word used to describe or define a noun. Think big, enormous, silly, beautiful, meaningless.">Adjective</i>
+                        <p>
+                            <input id="question-5-input" class="enter" type="text" placeholder="Ex: majestic, creepy"/>
+                        </p>
+                    </li>
+                    <li>
+                        <i id="adjective-3" title="An adjective is a word used to describe or define a noun. Think big, enormous, silly, beautiful, meaningless.">Adjective</i>
+                        <p>
+                            <input id="question-6-input" class="enter" type="text" placeholder="Ex: majestic, creepy"/>
+                        </p>
+                    </li>
+                    <li>
+                        <i id="noun2" title="A singular noun refers to only one person, place, or thing. Some examples include a cat, an idea, a fruit - just make sure to only have 1!">Noun</i>
+                        <p>
+                            <input id="question-7-input" class="enter" type="text" placeholder="Ex: sword, backyard"/>
+                        </p>
+                    </li>
+                   
+                        <input id ="story-submit" type="submit" name="story-input" value="Generate">
+                   
+                </form>
+            </ul>
+            <div id="story-box">
+                <img id="blue-arrow" src="https://i.pinimg.com/originals/ea/f4/5d/eaf45d79005980c820d3412d346d51dc.gif" />
+                <h3 id="custom-story"> Your custom story awaits! </h3>
+                <img id="blue-arrow-2" src="https://i.pinimg.com/originals/ea/f4/5d/eaf45d79005980c820d3412d346d51dc.gif" />
+            </div>
+            </div>
+        </div>
+<div> 
+    <h4 id="previous-stories" class="underline-text">Submit your Madlib and then interact with other user's unique stories!
+    </h4>
+    <div id="cat-stuff">
+        <button id="red-button"> DO NOT PRESS THIS BUTTON </button>
+        <div id="cat-pics">
+        <img id="cat-image" alt="random cat image">
+        </div>
+    </div>
+</div>
+        <script defer src="./index.js"></script>
+    </body>
+</html>
